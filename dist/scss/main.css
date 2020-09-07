@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box; }
+
+ul, ol {
+  list-style: none; }
+
+a, a:hover, a:focus {
+  text-decoration: none; }
+
+img {
+  vertical-align: middle; }
+
+h2 {
+  font-size: 80px;
+  color: #4169e1;
+  font-weight: 800;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  text-align: center;
+  position: relative; }
+
+.s-header {
+  font-size: 150px;
+  color: #ededed;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: capitalize;
+  position: absolute;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0; }
+
+.m-link {
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 20px;
+  background: #4169e1;
+  border: 1px solid #4169e1;
+  -webkit-transition: all linear 0.3s 0.3s;
+  -moz-transition: all linear 0.3s 0.3s;
+  -o-transition: all linear 0.3s 0.3s;
+  transition: all linear 0.3s 0.3s; }
+  .m-link:hover {
+    color: #4169e1;
+    background: white;
+    border: 1px solid #4169e1; }
+
+/*==========================================================================================
+                                       common css ends
+==========================================================================================*/
+/*==========================================================================================
+                                      navbar part start
+==========================================================================================*/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 888;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.1); }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    padding: 0 25px;
+    line-height: 65px;
+    -webkit-transition: all linear 0.3s 0.3s;
+    -moz-transition: all linear 0.3s 0.3s;
+    -o-transition: all linear 0.3s 0.3s;
+    transition: all linear 0.3s 0.3s; }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+      color: #4169e1; }
+  .navbar .navbar-nav .nav-item .active {
+    background: #4169e1;
+    color: white; }
+    .navbar .navbar-nav .nav-item .active:hover {
+      color: white; }
+  .navbar .navbar-brand {
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    font-family: "Montserrat"; }
+
+/*==========================================================================================
+                                        navbar part ends
+==========================================================================================*/
+/*==========================================================================================
+                                      banner part start
+==========================================================================================*/
+#banner {
+  background: url(../images/banner-bg.jpg) no-repeat center;
+  background-size: cover; }
+  #banner .overlay {
+    background: rgba(0, 0, 0, 0.5); }
+    #banner .overlay .content {
+      padding-top: 298px;
+      padding-bottom: 93px; }
+      #banner .overlay .content h1 {
+        font-size: 45px;
+        color: white;
+        font-weight: 400;
+        font-family: "Montserrat";
+        padding-bottom: 35px; }
+        #banner .overlay .content h1 span {
+          color: #4169e1; }
+      #banner .overlay .content h2 {
+        font-size: 27px;
+        color: white;
+        font-weight: 500;
+        font-family: "Montserrat";
+        text-transform: capitalize;
+        padding-bottom: 20px;
+        text-align: left; }
+      #banner .overlay .content p {
+        font-size: 18px;
+        color: white;
+        line-height: 2;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-transform: capitalize;
+        width: 380px;
+        padding-bottom: 25px; }
+
+/*==========================================================================================
+                                        banner part ends
+==========================================================================================*/
+/*==========================================================================================
+                                      about part start
+==========================================================================================*/
+#about {
+  padding-top: 192px; }
+  #about .about-img {
+    position: relative; }
+    #about .about-img:after {
+      position: absolute;
+      content: '';
+      top: 40px;
+      left: 25px;
+      height: 100%;
+      width: 100%;
+      border: 10px solid #4169e1;
+      z-index: -1; }
+  #about .content h4 {
+    font-size: 25px;
+    color: #4169e1;
+    font-weight: 400;
+    font-family: "Pacifico";
+    text-transform: capitalize; }
+
+/*==========================================================================================
+                                        about part ends
+==========================================================================================*/
+/*==========================================================================================
+font-family: 'Pacifico', ;
+font-family: 'Montserrat', ;
+                                      navbar part start
+==========================================================================================*/
+/*==========================================================================================
+                                        navbar part ends
+==========================================================================================*/
+/*==========================================================================================
+                                      navbar part start
+==========================================================================================*/
+/*==========================================================================================
+                                        navbar part ends
+==========================================================================================*/
+
+/*# sourceMappingURL=main.css.map */
